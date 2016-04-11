@@ -29,6 +29,15 @@ mysql_connection_info = {
     :password => 'changeit'
 }
 
+mysql_database_user 'test' do
+  connection    mysql_connection_info
+  password      'changeit'
+  database_name 'test_db'
+  host          '%'
+  privileges    [:all]
+  action        :grant
+end
+
 mysql_database 'test_db' do
   connection mysql_connection_info
   action :create
