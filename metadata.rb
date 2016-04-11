@@ -7,3 +7,6 @@ long_description 'A simple demonstration on the use of chef tools to setup apach
 version          '1.0.0'
 issues_url       'https://github.com/jhchaney/chef-example/issues' if respond_to?(:issues_url)
 source_url      'https://github.com/jhchaney/chef-example' if respond_to?(:source_url)
+depends           'mysql'
+depends          'database'
+depends          'mysql2_chef_gem'
