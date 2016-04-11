@@ -1,27 +1,18 @@
 # chef-example-cookbook
 
-TODO: Enter the cookbook description here.
+This cookbook is just an example of how to implement an apache web server and mysql database. Specifically, the cookbook will perform the three following tasks
+
+<li>Install apache web server with static content</li>
+<li>Install a mysql server</li>
+<li>Create a database "test_db" within mysql</li>
 
 ## Supported Platforms
-
-TODO: List your supported platforms.
-
+This cookbook has been tested on ubuntu and centos
+<li>ubuntu</li>
+<li>centos</li>
 ## Attributes
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef-example']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+N/A. There are currently no definied attributes. 
 
 ## Usage
 
@@ -39,4 +30,4 @@ Include `chef-example` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: John Chaney (chaney.john@gmail.com)
